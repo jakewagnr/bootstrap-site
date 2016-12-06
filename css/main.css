@@ -25,6 +25,11 @@ body{
     background-color: #25FFb2;
 }
 
+#title{
+    text-align: right;
+    display: inline-block;
+}
+
 h1,h2,h3,h4{
     font-family: 'Merriweather', 'Times New Roman', serif;
 }
@@ -48,6 +53,10 @@ footer span:hover{
 
 .navbar{
     background-color: #25FFB2;
+}
+
+.navbar-toggler{
+    float: right;
 }
 
 .nav-item{
