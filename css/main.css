@@ -1,0 +1,94 @@
+
+/*
+serif:  'Merriweather', 'Times New Roman', serif;
+sans:   'Oswald', Arial, Helvetica, sans-serif;
+
+
+colours
+#25FFB2
+#21F538
+#1FC5E8
+#1a1a1a
+
+*/
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    background-color: #25FFb2;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Merriweather', 'Times New Roman', serif;
+}
+
+.lead{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+footer span{
+    font-size: 2rem;
+    color: #1a1a1a
+}
+
+footer span:hover{
+    color: dodgerblue;
+}
+
+.navbar{
+    background-color: #25FFB2;
+}
+
+.nav-item{
+    background-color:  color:#1FC5E8;
+}
+
+.jumbotron{
+    background-color: #21F538;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.card{
+    background-color: #21F538;
+}
+
+.card-block{
+    background-color: #1FC5E8;
+}
+
+@media screen and (max-width: 768px){
+.regnav{
+    display: none;
+}
+
+.hamburger{
+    display: block;
+}
+}
+
+@media screen and (min-width: 768px){
+    .hamburger{
+        display: none;
+    }
+    
+    .regnav{
+        display:block;
+    }
+}
+
+/*
+<768
+>=768
+>=992
+>=1200*/
